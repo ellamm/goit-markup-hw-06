@@ -93,6 +93,7 @@ body{
 
 .form-input:focus + .form-icon {
     color: var(--iris);
+    fill:var(--iris);
 }
 
 .form-icon {
@@ -102,7 +103,7 @@ body{
     height: 24px;
     top: calc(50%);
     left: 16px;
-    color: var(--form-icon-color);
+    fill: var(--form-icon-color);
 }
 
 .form-input {
